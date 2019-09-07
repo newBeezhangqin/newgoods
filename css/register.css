@@ -1,0 +1,92 @@
+.margin{width: 1000px;margin: 0 auto;}
+.header{
+    height: 120px;
+    
+}
+.header .margin{border-bottom: 3px solid #3ea600;overflow: hidden;}
+.header .header_logo{
+    margin-top: 30px;
+    
+    float: left;
+}
+.header .h-r{
+    margin-top: 30px;
+        float: right;
+        font:15px/70px "";
+    
+}
+.header .h-r span{
+        color: darkgrey;
+}
+.header .h-r a{color: #333333}
+.header .h-l{
+    float: left;
+    margin: 50px;
+    font-size: 20px;
+    line-height: 36px;
+    color: #333333;
+}
+.main .margin{height: 510px;background: url(../images/bgbig.jpg) no-repeat center;
+    background-size: 1000px 500px}
+
+
+.police{text-align: center;
+    background: #ccc;
+    margin-top: 30px;
+    font: 12px/2 "";
+    color: #595757;
+    }
+    footer{
+        height: 20px;background: #3ea600;
+    }
+
+    .main{overflow: hidden;}
+    .main form{
+        margin:30px 0  0 690px;
+    }
+    #tel{
+        margin-top: 35px;
+    }
+    #user,#tel,#code,#pasw{ height: 35px;
+       width: 280px;
+        border: #ccc 1px solid;
+        font-size: 14px;
+    text-indent: 20px;
+}
+        #yzm{
+            height: 35px;
+            border: #ccc 1px solid;
+            font-size: 14px;
+            width: 155px;
+            text-indent: 20px;
+            
+        }
+        #syzm{
+            height: 35px;
+            width: 100px;
+          margin-left: 10px;
+            background: chartreuse;
+            color:#fff;
+            font: 17px/2 "";
+            border :none;
+            border-radius: 3px;
+            text-align: center; 
+        }
+   form p{height: 20px;}
+    #but{width: 280px;height:35px;
+        background: cornflowerblue;
+    font: 700 15px/30px "";
+    border: 1px solid #000;
+    color: #fff; 
+        border-radius: 5px;}
+   #top{position: fixed;width: 200px;height: 40px;
+    background:#f99;left: 500px; top: 200px;
+     display: none;text-align: center;font: 20px/2 "";color: #fff;}
+
+     #speedObj{width: 200px ;height:30px;border: 1px solid #000;position: relative;line-height: 30px;}
+     #speedObj .drag{width: 30px;height: 30px;display: block;
+     background: #f99;position: absolute;text-align: center;color: #fff;
+     left: 0px;}
+     .main form span{font: 14px/2 "";color: #fff;}
+     .main form span a{font: 14px/2 "";color: #fff;}
+     
