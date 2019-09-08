@@ -68,7 +68,7 @@ font:22px/51px "";color: #fff;text-align: center}
 #banner .b-l ul{margin-top:11px;background: #3ea600;position: relative;}
 #banner .b-l ul li{height: 49px;width: 213px;font:17px/49px "";
     display: flex;padding:0 25px; }
-#banner .b-l ul li a{color: #fff;padding-left: 21px;}
+#banner .b-l ul li>a{color: #fff;padding-left: 21px;}
 #banner .b-l ul li i{display: block;width: 20px;height: 21px;margin-top: 11px;} 
 #banner .b-l ul li i.bg{background: url(../images/css.jpg) no-repeat;}
 #banner .b-l ul li i.bg1{background-position: 0 0;}
@@ -82,17 +82,23 @@ font:22px/51px "";color: #fff;text-align: center}
 #banner .b-l ul li .menus{ width: 992px;height:563px;
   position: absolute;background: #fff;left:263px;
   top:-12px;
+  display: none;
 }
 
 /* 二级菜单的书写样式*/
 
 #banner .b-l ul li .menus .one{
+    margin:20px 0 0 40px;
       height: 40px;
+      
 }
 #banner .b-l ul li .menus a.te{
       font: 20px/2 "";color: #383838;
+      margin: 0;padding: 0;
 }
-#banner .b-l ul li .menus p{display: inline-block;font: 14px/2 "";color: #ccc;text-align: center}
+#banner .b-l ul li .menus p{display: inline-block;font: 14px/2 "";color: #ccc;
+  border-bottom: 1px solid #bbbbc5; width: 550px;
+   padding-bottom: 10px;padding-left: 10px;}
 #banner .b-l ul li .menus span{
       padding: 0 12px;
 }

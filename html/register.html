@@ -29,29 +29,29 @@
         <div class="main">
                 <div class="margin">
               <form action="#" method="get">
+                  <p><i></i>请输入正确的手机号</p>
                <input type="text" id="tel" style="color: #ccc;"  placeholder="手机/邮箱">
-                <p></p>
+                <p><i></i>请不要以数字开头</p>
                 <input type="text" id="user"  style="color: #ccc;" placeholder="用户名">
-                <p></p>
-                <input type="text" id="code"  style="color: #ccc;" placeholder="密码" >
-                <p></p>
+                <p><i></i>密码长度6-12位</p>
+                <input type="password" id="code"  style="color: #ccc;" placeholder="密码" >
+                <p><i></i>密码不一致</p>
                <input type="password" id="pasw" placeholder="确认密码" style="color: #ccc;">
-                <p></p>
-                <input type="password" id="yzm" placeholder="手机验证码" style="color: #ccc;">
+                <p><i></i>请输入正确的验证码</p>
+                <input type="text" id="yzm" placeholder="手机验证码" style="color: #ccc;">
                 <input type="button" value="发送验证码" id="syzm">
-                <p></p>
-            <input type="checkbox"  id="read">
+                <p><i></i>请你勾中复选框然后开始你的操作</p>
+            <input type="checkbox"  id="read" checked>
             <span>阅读并接受
                 <a href="https://www.bilibili.com/video/av50768383?from=search&seid=11325504441828633613">
                 《鸡你太美协议》
                 </a>
-            </span>
-                <p></p>
+                </span>
                 <input type="submit" name="" id="but" value="注册">
               </form>
                 </div>
             </div>
-
+        <div id="p"></div>
 
             <div class="police">
                     <div class="margin"> 
@@ -70,4 +70,6 @@
                    <footer>
                    </footer>
 </body>
+<script src="../js/jquery.js"></script>
+<script src="../js/register.js"></script>
 </html>

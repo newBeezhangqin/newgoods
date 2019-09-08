@@ -88,13 +88,13 @@ $('#banner').find('.b-l').find('li').css({background:'#3ea600'})
         .find('a').css({color:'#fff'})
 $(this).css({background:'#fff',color:'#3ea600'})
         .find('a').css({color:'#3ea600'})
-        $(this).find('.menus').stop().show(1000);
+        $(this).find('.menus').stop().show();
 
 
     },function(){
      $('#banner').find('.b-l').find('li').css({background:'#3ea600'})
              .find('a').css({color:'#fff'})
-             $(this).find('.menus').stop().hide(1000);
+             $(this).find('.menus').stop().hide();
     })
 
     $('#banner').find('.b-l').find('li').find('a').hover(function(){

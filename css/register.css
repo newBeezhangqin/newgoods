@@ -43,10 +43,71 @@
     .main{overflow: hidden;}
     .main form{
         margin:30px 0  0 690px;
+        overflow: hidden;
     }
-    #tel{
-        margin-top: 35px;
+    .main form p:nth-of-type(1){
+            width: 150px;
+            height: 30px;;
+        margin-top: 32px;
+        margin-left: 20px;
+        background: #fee6e7;
+        border: 1px solid #faa2a6;
+        color: #ff8a8d;
+        position: relative;
+        font:10px/3 "";
+        text-align: center;
+        visibility:hidden;
+
     }
+     .main form p i{
+            display:block;
+            width: 10px;height: 7px;
+            position: absolute;
+            left: 10px;
+            bottom: -8px;
+            background: url(../images/pinkxj.jpg) no-repeat center;
+            background-size: 10px 7px;
+            
+     }
+
+
+   .main form p{height: 30px;
+         width: 150px;
+         margin-left: 20px;
+         background: #fee6e7;
+         border: 1px solid #faa2a6;
+         color: #ff8a8d;
+         position: relative;
+         font:10px/3 "";
+         text-align: center;
+         visibility:hidden;
+
+    }
+    .main form p:nth-of-type(6){
+            width: 251px;
+            height: 30px;
+           margin: 0;
+           background: #666666;
+           color:#fff;
+           font:10px/3 "";
+           border: none;
+           border-radius: 3px;
+        position: relative;
+        visibility: hidden;
+            top: 7px;
+
+     
+    }
+    .main form p:nth-of-type(6) i{
+       display: inline-block;
+         width: 16px;
+         height: 16px;
+        background: url(../images/sup.jpg) no-repeat center;
+       position: absolute;
+       left: 20px;
+       top: 10px;
+    }
+
     #user,#tel,#code,#pasw{ height: 35px;
        width: 280px;
         border: #ccc 1px solid;
@@ -72,21 +133,18 @@
             border-radius: 3px;
             text-align: center; 
         }
-   form p{height: 20px;}
+  
     #but{width: 280px;height:35px;
         background: cornflowerblue;
     font: 700 15px/30px "";
     border: 1px solid #000;
     color: #fff; 
-        border-radius: 5px;}
+        border-radius: 5px;
+    }
    #top{position: fixed;width: 200px;height: 40px;
     background:#f99;left: 500px; top: 200px;
      display: none;text-align: center;font: 20px/2 "";color: #fff;}
 
-     #speedObj{width: 200px ;height:30px;border: 1px solid #000;position: relative;line-height: 30px;}
-     #speedObj .drag{width: 30px;height: 30px;display: block;
-     background: #f99;position: absolute;text-align: center;color: #fff;
-     left: 0px;}
      .main form span{font: 14px/2 "";color: #fff;}
      .main form span a{font: 14px/2 "";color: #fff;}
      
