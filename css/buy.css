@@ -88,7 +88,7 @@ footer .xing{margin-top: 30px;}
     padding: 0 4px;
 }
 #goods{height: 600px;}
-#goods .g-l{width: 400px;background: #ff9999;
+#goods .g-l{width: 400px;
     float: left;
   height: 600px;}
 #goods .g-l .gl-t{
@@ -128,7 +128,7 @@ footer .xing{margin-top: 30px;}
     color:#757575; 
 }
 
-#goods .g-r p:nth-of-type(3){
+#goods .g-r>p:nth-of-type(3){
         font: 12px/1.5 "";
         color: #c30000;
 }
@@ -189,26 +189,53 @@ footer .xing{margin-top: 30px;}
 }
 
 
-#goods .g-r  .address span.send{
+#jntm{
       font: 19px/2 "";
       color: #333;
-
 }
-#dz{
-
-        width: 200px;
+#dz{    margin-left: 20px;
+        padding-left: 20px;
+        width: 150px;
         font: 17px/2 "";
         color: #bbbbc5;
 }
 #dz option{text-align: center;width: 200px;}
 #te{
-    font: 17px/2 "";
-    color: #bbbbc5;  
+     font: 19px/2 "";
+     color: #333333;  
 }
-#goods .g-r .address p:nth-of-type(2){
-      font: 17px/2 "";
-      color: #bbbbc5;
+#number{
+        font: 19px/2 "";
+        color: #333;
 
+}
+#number input{
+      margin-left: 20px;
+      width: 70px;
+      font: 10px/2 "";
+      color: #606060;
+      text-indent: 20px;
+}
+#ggcar{
+        display: inline-block;
+        background: #c30000;
+        font: 19px/2 "";
+        padding: 0 10px;
+        color: #fff;
+        margin-left: 20px;
+}
+#click{
+    display: inline-block;
+    
+    border:1px solid #c30000;
+    font: 19px/2 "";
+    padding: 0 10px;
+    color: #cbcbc9;
+    margin-left: 20px;
+
+}
+.en{
+      margin: 20px 0;
 }
 /* #goods .btns{height: 100px;background: #ff9999}
 #goods .end{width: 221px;height: 353px;background: #fff;padding: 47px 10px 0 10px}

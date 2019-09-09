@@ -125,13 +125,93 @@ font:22px/51px "";color: #fff;text-align: center}
 #banner .b-r .igbox img{width:81px ;height:75px;
 border-right: 1px dashed #ddd;border-bottom: 1px dashed #ddd;}
 #banner .b-r .newgoods img{width: 248px;height:187px;}
-#goodshow{height:467px;background: hotpink;}
+#goodshow{height:467px;background: #fff;padding-bottom: 10px;}
 #goodshow .g-t{height: 65px;border-bottom: 2px solid #2d8800;}
 #goodshow .g-t h3{float: left;font: 24px/65px "";color: #333333;}
 #goodshow .g-t p{float: left;margin:20px 0 0 26px}
 /* #goodshow .g-t p img{background: url(../images/information.jpg) no-repeat center;} */
 #goodshow .g-l{width: 303px;height:401px;float: left;}
-#goodshow .g-r{float: left;width: 1210px;height: 401px;background: #c30000;}
+#goodshow .g-r{float: left;width: 1210px;height: 401px;background: #fff;}
+#goodshow .g-r{
+
+}
+
+#goodshow .g-r ul{
+          overflow: hidden;
+}
+
+#goodshow .g-r ul li{
+    margin-left: 4px;
+          float: left;
+          width: 299px;
+          height: 402px;
+          background: #88a9e7;
+}
+#goodshow .g-r ul li:nth-of-type(1){
+  margin: 0;
+}
+#goodshow .g-r ul li .goods{
+      width:299px;
+      height: 300px;
+      background: #fff;
+}
+#goodshow .g-r ul li .goods img{
+      width: 227px;
+      height: 230px;
+      margin: 35px;
+
+        border :1px solid #ccc;
+}
+#goodshow .g-r ul li .grey{
+        width: 299px;
+        height: 100px;
+            background:#f0f0f0;
+}
+#goodshow .g-r ul li .grey a:nth-of-type(1){
+ display: block;
+ font:16px/2 "";
+ color: #383838;
+ margin-left: 20px;
+}
+#goodshow .g-r ul li .grey a:nth-of-type(2){
+  display: block;
+  font:16px/2 "";
+  color: #606074;
+  margin-left: 20px;
+ }
+
+#goodshow .g-r ul li .grey span:nth-of-type(1){
+  display: inline-block;
+      font: 20px/2 "";
+      color: #ca000b;
+      margin-left: 20px;
+}
+#goodshow .g-r ul li .grey span:nth-of-type(2){
+        display: inline-block;
+        background: #ff870f;
+        color:#fff;
+        font:10px/2 "";
+        padding: 0px 10px;
+        margin-left: 80px;
+       
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .floor .f-t{height:65px;border-bottom: 2px solid #88a9e7;}
 .floor .f-t h3{float: left;font:23px/65px "";color: #88a9e7;}
 .floor .f-t h4:nth-of-type(1){margin-left: 230px;margin-right: 15px;} 
