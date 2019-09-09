@@ -77,7 +77,6 @@ $('.main').find('#read').on('click',function(){
             $('.main').find('p').eq(5).css({visibility:"hidden"})
             styleCheck = 1;
           }
-         
 })
     
       $('#but').on('click',function(){
@@ -85,20 +84,55 @@ $('.main').find('#read').on('click',function(){
       
       
         if(styleTel+styleName+styleCheck+stylePass+styleYzm==5){
-          alert('注册成功');
-          //设置数据到localstrange里面
-          var json = [{"name":$('#user').val(),"pass":$('#pasw').val()}];
-          localStorage.setItem("name",JSON.stringify(json));
+          // alert('注册成功');
+          //当长度等于0时候开始往localstrange设置东西然后进行判断
+          var temp = 0;
+              //当local为0的时候。
+          if(localStorage.length==0){
+              //设置数据到localstrange里面
+             var json = [{"name":$('#user').val(),"pass":$('#pasw').val()}];
+             localStorage.setItem("information",JSON.stringify(json));
+                    alert('注册成功');
+            }else if(localStorage.length>=1){
+                  //遍历所有的名字然后判断所有的判读用户名是否重合 并进行判断                 
+                  var inf = JSON.parse(localStorage.information);
+                 
+                  //开始遍历哈 遍历成功后 输出状态为1  失败后输出为1；
+                  for(var i =0;i<inf.length;i++){
+                        if(inf[i].name == $('#user').val()){
+                              temp =1;
+                        }else{
+                              temp =2;
+                        }
+                      }
+                        if(temp ==1){
+                          alert('你用户名重合了');
+                        }else if(temp==2){
+                            alert('注册成功');
+                          inf.push({"name":$('#user').val(),"pass":$('#pasw').val()});
+                          console.log(inf);
+                          localStorage.setItem('information',JSON.stringify(inf));
+                        }        
+                      } 
+          }
+
+      
+
+
+          
+
+
+
+
+
+
+
+
+
           //进行判断以后写
-        }else{
-          alert('注册失败')
-        }
+        // }else{
+        //   //注册失败里面的用户名记得不能一样
+        //   alert('注册失败')
+        //   console.log(localStorage.length);
+        // }
       })
-// document.onclick = function(){
-//       console.log(styleTel+styleName+styleCheck+stylePass+styleYzm);
-// //  console.log(styleTel);
-// //   console.log(styleName);
-// //   console.log(styleCheck);
-// //   console.log(stylePass);
-// //   console.log(styleYzm);
-// } 

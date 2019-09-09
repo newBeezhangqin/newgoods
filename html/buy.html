@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>放大镜系列</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/jquery.exzoom.css">
     <link rel="stylesheet" href="../css/public.css">
     <link rel="stylesheet" href="../css/buy.css">
 </head>
@@ -94,9 +96,13 @@
 <div id="goods">
     <div class="margin">
         <div class="g-l">
-            <div class="gl-t">
-                <img src="../images/baofish.jpg" alt="">
+            <div class="exzoom" id="exzoom">
+                <div class="gl-t exzoom_img_box">
+                     <img src="../images/baofish.jpg" alt="" class="exzoom_img_ul">
+                </div>
+
             </div>
+       
             <div class="gl-b">
                 <!-- <img src="" alt="">
                 <img src="" alt="">
@@ -129,7 +135,7 @@
                    </p>
                 </div>
                 <div class="adress">
-                    <span>送至</span>
+                        <span class="send">送至</span>
                         <select name="" id="dz">
                         <option value="">上海黄浦区</option>
                         </select>
@@ -255,4 +261,8 @@
         </div>
     </footer>
 </body>
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.exzoom.js"></script>
+<script src="../js/buy.js"></script>
+
 </html>
