@@ -80,9 +80,121 @@ footer .f-c .logo{float: left;margin-left:320px;}
 footer .f-c .connect{float: left;margin-left: 10px;margin-top: 10px;font:10px/2 "";color: #989898;}
 footer .xing{margin-top: 30px;}
 
-
+#list{
+    font: 14px/2 "";
+    
+}
+#list a{
+    padding: 0 4px;
+}
 #goods{height: 600px;background: #ffffaa}
-#goods .btns{height: 100px;background: #ff9999}
+#goods .g-l{width: 400px;background: #ff9999;
+    float: left;
+  height: 600px;}
+#goods .g-l .gl-t{
+    width: 400px;height: 400px;
+    background: red;
+}
+#goods .g-l .gl-t img{
+      width: 400px;
+      height: 400px;
+
+}
+#goods .g-l .gl-b{
+        width: 400px;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between
+}   
+#goods .g-l .gl-b p{
+  margin-top: 5px;
+    width: 70px;
+    height: 70px;
+    border:1px solid #3ea600;
+}
+#goods .g-r{
+    float: left;
+    margin-left: 20px;
+}
+#goods .g-r p.bg{
+      width:30px;
+      height: 30px;
+      border-radius: 2px;
+      background: url(../images/self.jpg) no-repeat center;
+}
+
+#goods .g-r>p:nth-of-type(2){
+    font: 20px/1.5 "";
+    color:#757575; 
+}
+
+#goods .g-r p:nth-of-type(3){
+        font: 12px/1.5 "";
+        color: #c30000;
+}
+
+#goods .g-r a:nth-of-type(1){
+      display: block;
+      font: 12px/1.5 "";
+      color:red;
+      margin-top:  40px;
+}
+#goods .g-r .price{
+    background: #bbbbc5;
+
+}
+
+#goods .g-r .price .tt span:nth-of-type(1){
+      font: 25px/2 "";
+      color: #ca000b;
+        }
+#goods .g-r .price .tt span:nth-of-type(2){
+        display: inline-block;
+        background: #c30000;
+        color: #fff;
+        font: 12px/16px "";
+        padding: 2px 2px;
+    }
+#goods .g-r .price .bb span:nth-of-type(1){
+      display: inline-block;
+      background: #c30000;
+      color: #fff;
+      font: 16px/24px "";
+      padding: 2px 2px;
+}
+#goods .g-r .price .bb span:nth-of-type(2){
+      font: 12px/2 "";
+      color: #ffffaa;
+
+}
+
+#goods .g-r .price .bb span:nth-of-type(3){
+    display:inline-block;
+      border: 1px solid #ca000b;
+      font-size:  14px;
+      color: whitesmoke;
+}
+
+
+#goods .g-r .price .address span{
+      font: 17px/2 "";
+
+}
+#dz{
+        width: 100px;
+        font: 17px/2 "";
+        color: #bbbbc5;
+}
+#te{
+    font: 17px/2 "";
+    color: #bbbbc5;  
+}
+#goods .g-r .address p:nth-of-type(2){
+      font: 17px/2 "";
+      color: #bbbbc5;
+
+}
+/* #goods .btns{height: 100px;background: #ff9999}
 #goods .end{width: 221px;height: 353px;background: #fff;padding: 47px 10px 0 10px}
 #goods .end img{width:221px;height:220 px;}
 #goods .end p:nth-of-type(1){
@@ -129,4 +241,4 @@ footer .xing{margin-top: 30px;}
         width: 15px;
         height: 10px;
         background: url(../images/redcar.jpg) no-repeat center;
-}
+} */

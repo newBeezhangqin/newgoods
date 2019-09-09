@@ -21,15 +21,51 @@
     border-radius: 10px;
  
 }
-.main .box p{    height: 20px;
+.main .box form p{    height: 20px;
     line-height: 20px;
     text-align: left;
     color: #595757;
     font-size: 16px;
     font-family: "Microsoft YaHei";
     position: relative;}
-.main .box a{display: block;margin:6px 0 6px 200px;}
+.main .box form a{display: block;margin:6px 0 6px 200px;}
+.main .box .friend{
 
+            width: 306px;
+            height: 100px;
+          
+}
+.main .box .friend p{
+    margin-top: 10px;
+    font: 16px/2 "";
+    height: 34px;
+    color: #595757;
+
+}
+.main .friend .f-b{
+display: flex; 
+flex-wrap:wrap;
+}
+
+.main .friend .f-b a{
+        font: 12px/30px "";
+       padding-left: 24px;
+        position: relative;
+        color: #595757;
+}
+.main .friend .f-b span{
+    font: 12px/30px "";
+    color: #595757;
+    padding: 0 10px;
+}
+.main .friend .f-b i{
+    display: inline-block;
+    width: 20px;height: 20px;
+    background: url(../images/police.png) no-repeat center;
+   position: absolute;
+    left: 0;
+    top: 7px;
+}
 #user,#pass{
     width: 292px;
     height: 16px;
